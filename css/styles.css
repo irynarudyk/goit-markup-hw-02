@@ -1,4 +1,35 @@
 body {
-    font-family: "Roboto"; sans-serif;
+    font-family:'Roboto'; sans-sarif;
 }
+
+.link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
+}
+
+.title {
+ text-transform: uppercase;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main-title {
+background-color: #2F303A;
+}
+
+
+
 
