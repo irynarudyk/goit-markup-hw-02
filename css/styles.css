@@ -4,9 +4,17 @@ body {
     font-style: normal;
 }
 
-.header {
-    background: #FFFFFF;;
+.list {
+    list-style: none;
 }
+
+.link {
+    text-decoration: none;
+}
+.header {
+    background: #FFFFFF;
+    }
+
 
 .logo-nav {
     color: #2196F3;
@@ -18,14 +26,21 @@ body {
     font-size: 26px;
     line-height: 31px;
 }
-    
-.menu-header {
+
+
+.header-nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     }
  
+.link-header:hover,
+.link-header:focus {
+    color: #2196F3;
+}
+
+
 .contact {
 font-weight: 500;
 font-size: 14px;
@@ -49,10 +64,67 @@ color: #757575;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-}
+    }
 
 /*Button*/
 .button {
     background: #2196F3;
     color: #ffffff;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+.desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.specific {
+    background: #E5E5E5;
+}
+
+.subject {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+/*Наша команда*/
+.team {
+    background: #F5F4FA;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+.team-proficion {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
