@@ -1,6 +1,7 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
+    font-style: normal;
 }
 
 .header {
@@ -13,22 +14,19 @@ body {
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
 }
     
 .menu-header {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-}
+    }
  
 .contact {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -41,4 +39,20 @@ color: #2196F3;
 
 .telefone {
 color: #757575;
+}
+
+.main-title {
+    background: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*Button*/
+.button {
+    background: #2196F3;
+    color: #ffffff;
 }
