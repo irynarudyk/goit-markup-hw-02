@@ -15,46 +15,63 @@ body {
     background: #FFFFFF;
     }
 
-
-.logo-nav {
-    color: #2196F3;
-}
-
+/*Лого*/
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    color: #000000;
 }
 
+.logo-nav {
+    color: #2196F3;
+}
 
-.header-nav {
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+   color: #ffffff;
+}
+
+.header.list {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     }
+.link-header {
+    color: #000;
+}
+
+ .link-header-nav.link {
+    color: #2196F3;
+ }
  
 .link-header:hover,
-.link-header:focus {
+.link-header:focus,
+.email-telefone:hover,
+.email-telefone:focus,
+.adress:hover,
+.adress:focus,
+.mail-tel:hover,
+.mail-tel:focus{
     color: #2196F3;
 }
 
-
-.contact {
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.email-telefone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
-.email {
-color: #2196F3;
-}
-
-.telefone {
-color: #757575;
-}
+/*Шапка*/
 
 .main-title {
     background: #2F303A;
@@ -70,6 +87,19 @@ color: #757575;
 .button {
     background: #2196F3;
     color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/*Особенности*/
+
+.specific {
+    background: #FFFFFF;
 }
 
 .subtitle {
@@ -78,7 +108,7 @@ color: #757575;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    }
+}
 
 .desc {
     font-weight: 400;
@@ -88,16 +118,14 @@ color: #757575;
     color: #757575;
 }
 
-.specific {
-    background: #E5E5E5;
-}
+/*Чем мы занимаемся*/
 
 .subject {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     }
 /*Наша команда*/
 .team {
@@ -127,4 +155,26 @@ color: #757575;
     color: #757575;
     text-align: center;
     letter-spacing: 0.03em;
+}
+/*footer*/
+.footer {
+    background: #2F303A;
+    color: #ffffff;
+}
+
+.footer-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.adress {
+    color: #FFFFFF;
+}
+
+.mail-tel {
+    color: rgba(255, 255, 255, 0.6);
 }
