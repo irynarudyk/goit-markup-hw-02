@@ -1,45 +1,44 @@
+body {
+    font-family: Roboto;
+    color: #212121;
+}
 
+.header {
+    background: #FFFFFF;;
+}
 
+.logo-nav {
+    color: #2196F3;
+}
 
-.logo-header {
+.logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
 }
-
-
-.link {
-font-family: 'Roboto';
+    
+.menu-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+ 
+.contact {
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-text-decoration: none;
-color: #212121;
-
 }
 
-.title {
- text-transform: uppercase;
- font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+.email {
+color: #2196F3;
 }
 
-.main-title {
-background-color: #2F303A;
+.telefone {
+color: #757575;
 }
-
-
-
-
