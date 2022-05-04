@@ -92,6 +92,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;    
 }
 
 .main-title.button:hover {
@@ -186,6 +187,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    cursor: pointer;
 }
 
 .button-navigation:hover,
