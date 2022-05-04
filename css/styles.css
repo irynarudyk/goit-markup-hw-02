@@ -113,7 +113,7 @@ body {
     text-transform: uppercase;
 }
 
-.desc {
+.desc-specific {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.03em;
@@ -164,7 +164,6 @@ body {
 }
 
 .footer-adress {
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -179,7 +178,6 @@ body {
 }
 /*Портфолио*/
 .button-navigation {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -200,16 +198,13 @@ body {
 }
 
 .progect {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-color: #212121;
 }
 
 .desc {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
