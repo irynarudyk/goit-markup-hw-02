@@ -1,8 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
-    font-style: normal;
-}
+    }
 
 .list {
     list-style: none;
@@ -30,7 +29,6 @@ body {
 
 .logo-footer {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -164,7 +162,6 @@ body {
 
 .footer-adress {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -201,7 +198,6 @@ body {
 
 .progect {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -211,7 +207,6 @@ color: #212121;
 
 .desc {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
